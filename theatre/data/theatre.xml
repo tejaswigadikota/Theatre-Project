@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><theatre>
+
+	<movies last_movie="102">
+		<movie id="101">
+			<name>Born Identity</name>
+			<length>1.45</length>
+			<info>Nice Movie</info>
+			<shows last_show="4">
+				<show capacity="80" price="100.0" showing_id="1" starts_at="02-05-2014-15:00"/>
+				<show capacity="50" price="55.0" showing_id="2" starts_at="03-05-2014-12:00"/>
+			<show capacity="1" price="1000.0" showing_id="3" starts_at="02-05-2014-11:03"/><show capacity="80" price="35.0" showing_id="4" starts_at="12-05-2014-16:26"/></shows>
+		</movie>
+	<movie id="102"><name>titanic</name><length>60</length><info>good movie</info><shows last_show="1"><show capacity="30" price="150.0" showing_id="1" starts_at="19-05-2014-22:42"/></shows></movie></movies>
+
+	<bookings last_booking="1007">
+		
+		
+		
+	<booking date="12-05-2014-16:15" id="1005" movie_id="101" show_id="1"><viewer><firstname>Alex</firstname><lastname>Marvel</lastname><address>California</address><email>yahudinesh@gmail.com</email><phone>+1 33445529</phone></viewer><payment-info><status>active</status><mode>cash</mode><total>100.0</total></payment-info><seats total="0"/></booking><booking date="12-05-2014-16:17" id="1006" movie_id="101" show_id="1"><viewer><firstname>Alex</firstname><lastname>Marvel</lastname><address>California</address><email>yahudinesh@gmail.com</email><phone>+1 33445529</phone></viewer><payment-info><status>active</status><mode>cash</mode><total>100.0</total></payment-info><seats total="1"><seat no="2" price="80.0"/></seats></booking><booking date="19-05-2014-22:42" id="1007" movie_id="102" show_id="1"><viewer><firstname>tejaswi</firstname><lastname>gadikota</lastname><address>3001 s king drive</address><email>tejaswi.rdy@gmail.com</email><phone>3159356861</phone></viewer><payment-info><status>active</status><mode>card</mode><total>350.0</total></payment-info><seats total="2"><seat no="1" price="150.0"/><seat no="2" price="200.0"/></seats></booking></bookings>
+
+</theatre>

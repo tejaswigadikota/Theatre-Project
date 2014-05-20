@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><theatre>
+
+	<movies last_movie="101">
+		<movie id="101">
+			<name>Born Identity</name>
+			<length>1.45</length>
+			<info>Nice Movie</info>
+			<shows last_show="4">
+				<show capacity="80" price="100.0" showing_id="1" starts_at="02-05-2014-15:00"/>
+				<show capacity="50" price="55.0" showing_id="2" starts_at="03-05-2014-12:00"/>
+			<show capacity="1" price="1000.0" showing_id="3" starts_at="02-05-2014-11:03"/><show capacity="80" price="35.0" showing_id="4" starts_at="12-05-2014-16:26"/></shows>
+		</movie>
+	</movies>
+
+	<bookings last_booking="1006">
+		<booking date="02-05-2014-10:33" id="1001" movie_id="101" show_id="2">
+			<viewer>
+				<firstname>Dinesh</firstname>
+				<lastname>kumar</lastname>
+				<address>Bangalore</address>
+				<email>yahudinesh@gmail.com</email>
+				<phone>8080808080</phone>
+			</viewer>
+			<payment-info>
+				<status>active</status>
+				<mode>cash</mode>
+				<total>110.0</total>
+			</payment-info>
+			<seats total="2">
+				<seat no="4" price="55.0"/>
+				<seat no="5" price="55.0"/>
+			</seats>
+		</booking>
+		<booking date="02-05-2014-10:59" id="1002" movie_id="101" show_id="1">
+			<viewer>
+				<firstname>Dinesh</firstname>
+				<lastname>kumar</lastname>
+				<address>Bangalore</address>
+				<email>yahudinesh@gmail.com</email>
+				<phone>8080808080</phone>
+			</viewer>
+			<payment-info>
+				<status>active</status>
+				<mode>card</mode>
+				<total>100.0</total>
+			</payment-info>
+			<seats total="1">
+				<seat no="3" price="100.0"/>
+			</seats>
+		</booking>
+		<booking date="02-05-2014-11:26" id="1003" movie_id="101" show_id="1">
+			<viewer>
+				<firstname>Dinesh</firstname>
+				<lastname>DineshK</lastname>
+				<address>India</address>
+				<email>yahudinesh@gmail.com</email>
+				<phone>8080808080</phone>
+			</viewer>
+			<payment-info>
+				<status>active</status>
+				<mode>cash</mode>
+				<total>100.0</total>
+			</payment-info>
+			<seats total="1">
+				<seat no="4" price="100.0"/>
+			</seats>
+		</booking>
+	<booking date="11-05-2014-23:56" id="1004" movie_id="101" show_id="1"><viewer><firstname>Alex</firstname><lastname>Marvel</lastname><address>California</address><email>yahudinesh@gmail.com</email><phone>+1 33445529</phone></viewer><payment-info><status>active</status><mode>cash</mode><total>100.0</total></payment-info><seats total="0"/></booking><booking date="12-05-2014-16:15" id="1005" movie_id="101" show_id="1"><viewer><firstname>Alex</firstname><lastname>Marvel</lastname><address>California</address><email>yahudinesh@gmail.com</email><phone>+1 33445529</phone></viewer><payment-info><status>active</status><mode>cash</mode><total>100.0</total></payment-info><seats total="0"/></booking><booking date="12-05-2014-16:17" id="1006" movie_id="101" show_id="1"><viewer><firstname>Alex</firstname><lastname>Marvel</lastname><address>California</address><email>yahudinesh@gmail.com</email><phone>+1 33445529</phone></viewer><payment-info><status>active</status><mode>cash</mode><total>100.0</total></payment-info><seats total="1"><seat no="2" price="80.0"/></seats></booking></bookings>
+
+</theatre>
